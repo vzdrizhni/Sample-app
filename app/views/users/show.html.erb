@@ -1,0 +1,14 @@
+<%= @user.name %>, <%= @user.email %>
+
+<% provide(:title, @user.name) %>
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1>
+        <%= gravatar_image_tag('junk', :alt => 'Github Default Gravatar', :gravatar => { :default => 'https://assets.github.com/images/gravatars/gravatar-140.png' }) %>
+        <%= @user.name %>
+      </h1>
+    </section>
+  </aside>
+</div>
+

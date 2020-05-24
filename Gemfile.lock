@@ -59,9 +59,15 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     ansi (1.5.0)
+    autoprefixer-rails (9.7.6)
+      execjs
+    bcrypt (3.1.13)
     bindex (0.8.1)
     bootsnap (1.4.6)
       msgpack (~> 1.0)
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
     builder (3.2.4)
     byebug (11.1.1)
     capybara (3.32.1)
@@ -77,11 +83,13 @@ GEM
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     erubi (1.9.0)
+    execjs (2.7.0)
     ffi (1.12.2)
     ffi (1.12.2-x64-mingw32)
     formatador (0.2.5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    gravatar_image_tag (1.2.0)
     guard (2.16.2)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
@@ -240,9 +248,12 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bcrypt
   bootsnap (>= 1.4.2)
+  bootstrap-sass
   byebug
   capybara (>= 2.15)
+  gravatar_image_tag
   guard
   guard-minitest
   jbuilder (~> 2.7)
