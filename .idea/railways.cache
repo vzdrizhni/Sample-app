@@ -1,9 +1,20 @@
                                Prefix Verb   URI Pattern                                                                              Controller#Action
+                         sessions_new GET    /sessions/new(.:format)                                                                  sessions#new
                                signup GET    /signup(.:format)                                                                        users#new
                                  root GET    /                                                                                        static_pages#home
                                  help GET    /help(.:format)                                                                          static_pages#help
                                 about GET    /about(.:format)                                                                         static_pages#about
                               contact GET    /contact(.:format)                                                                       static_pages#contact
+                                login POST   /login(.:format)                                                                         sessions#create
+                               logout DELETE /logout(.:format)                                                                        sessions#destroy
+                                users GET    /users(.:format)                                                                         users#index
+                                      POST   /users(.:format)                                                                         users#create
+                             new_user GET    /users/new(.:format)                                                                     users#new
+                            edit_user GET    /users/:id/edit(.:format)                                                                users#edit
+                                 user GET    /users/:id(.:format)                                                                     users#show
+                                      PATCH  /users/:id(.:format)                                                                     users#update
+                                      PUT    /users/:id(.:format)                                                                     users#update
+                                      DELETE /users/:id(.:format)                                                                     users#destroy
         rails_mandrill_inbound_emails POST   /rails/action_mailbox/mandrill/inbound_emails(.:format)                                  action_mailbox/ingresses/mandrill/inbound_emails#create
         rails_postmark_inbound_emails POST   /rails/action_mailbox/postmark/inbound_emails(.:format)                                  action_mailbox/ingresses/postmark/inbound_emails#create
            rails_relay_inbound_emails POST   /rails/action_mailbox/relay/inbound_emails(.:format)                                     action_mailbox/ingresses/relay/inbound_emails#create
