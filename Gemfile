@@ -20,7 +20,10 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 gem 'bcrypt'
 # Gemfile
-gem 'gravatar_image_tag'
+gem 'gravatar_image_tag', '~> 1.2'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
