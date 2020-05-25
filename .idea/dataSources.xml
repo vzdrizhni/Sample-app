@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails sample_app: production" uuid="d7b3cb18-7287-4b91-91ea-ea270dd80748">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/sample_app_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails sample_app: development" uuid="7ff612d9-36e9-4fbe-b54c-2e5e51fbe3c2">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\metalizer\Desktop\Odin_on_rails\sample_app\db\development.sqlite3</jdbc-url>
+    </data-source>
+  </component>
+</project>
