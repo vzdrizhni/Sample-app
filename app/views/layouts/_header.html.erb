@@ -1,7 +1,7 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <%= link_to "sample app", root_path, id: "logo" %>
-    <nav>
+    <nav class="navbar navbar-expand-lg h3 d-flex align-items-center m-0">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed"
                 data-toggle="collapse"
@@ -13,7 +13,7 @@
           <span class="icon-bar"></span>
         </button>
       </div>
-      <ul class="nav navbar-nav navbar-right collapse navbar-collapse"
+      <ul class="nav navbar-nav navbar-right collapse navbar-collapse h3"
           id="bs-example-navbar-collapse-1">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "Help", help_path %></li>
@@ -23,11 +23,11 @@
             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
               Account
             </a>
-            <div class="dropdown-menu">
-              <%= link_to "Profile", current_user, class: 'dropdown-item' %>
-              <%= link_to "Settings", edit_user_path(current_user), class: 'dropdown-item' %>
+            <div class="dropdown-menu bg-inverse">
+              <%= link_to "Profile", current_user, class: 'dropdown-item h4 text-white' %>
+              <%= link_to "Settings", edit_user_path(current_user), class: 'dropdown-item h4 text-white' %>
               <div class="divider"></div>
-              <%= link_to "Log out", logout_path, method: :delete, class: 'dropdown-item' %>
+              <%= link_to "Log out", logout_path, method: :delete, class: 'dropdown-item h4 text-white' %>
             </div>
           </li>
         <% else %>
