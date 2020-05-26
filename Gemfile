@@ -24,6 +24,11 @@ gem 'gravatar_image_tag', '~> 1.2'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'active_storage_validations'
+gem 'rmagick'
+gem 'image_processing'
+gem 'mini_magick'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
