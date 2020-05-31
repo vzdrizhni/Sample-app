@@ -52,6 +52,7 @@ GEM
       activejob (= 6.0.3.1)
       activerecord (= 6.0.3.1)
       marcel (~> 0.3.1)
+    activestorage-cloudinary-service (0.2.3)
     activesupport (6.0.3.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
@@ -328,6 +329,7 @@ DEPENDENCIES
   actionpack (>= 6.0.3.1)
   active_storage_validations
   activestorage (>= 6.0.3.1)
+  activestorage-cloudinary-service
   activesupport (>= 6.0.3.1)
   bcrypt
   bootsnap (>= 1.4.2)

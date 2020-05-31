@@ -39,6 +39,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v6.0.3.1, ruby-2.6.5-p114) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v6.0.3.1, ruby-2.6.5-p114) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v6.0.3.1, ruby-2.6.5-p114) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activestorage-cloudinary-service (v0.2.3, ruby-2.6.5-p114) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v6.0.3.1, ruby-2.6.5-p114) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.7.0, ruby-2.6.5-p114) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ansi (v1.5.0, ruby-2.6.5-p114) [gem]" level="application" />
