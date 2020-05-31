@@ -5,7 +5,7 @@
   </div>
   <%= f.submit "Post", class: "btn btn-primary" %>
   <span class="image">
-    <%= f.file_field :image, accept: "image/jpeg,image/gif,image/png", direct_upload: true %>
+    <%= f.cl_image_upload :image, accept: "image/jpeg,image/gif,image/png", direct_upload: true %>
   </span>
 <% end %>
 
